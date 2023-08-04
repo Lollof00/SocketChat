@@ -1,0 +1,9 @@
+/home/lollof/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/lollof/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/ninja/linux/x64/ninja -G Ninja -S /home/lollof/CLionProjects/SocketClient -B /home/lollof/CLionProjects/SocketClient/cmake-build-debug
+-- Configuring done (0.0s)
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+TheLibrary
+    linked by target "SocketClient" in directory /home/lollof/CLionProjects/SocketClient
+
+-- Generating done (0.0s)
+CMake Generate step failed.  Build files cannot be regenerated correctly.
